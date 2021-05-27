@@ -4,7 +4,7 @@
 install:
 		pip install --upgrade pip &&\
 			pip install -r requirements.txt
-text:
+test:
 		#python -m pytest -vv --cov=myrepolib tests/*.py
 		#python -m pytest --nval notebook.ipynb
 lint: 
